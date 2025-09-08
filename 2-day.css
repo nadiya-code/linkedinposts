@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at center, #0d0d0d, #000000);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Outer box */
+.container {
+  width: 200px;
+  height: 120px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(0, 255, 224, 0.3);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 30px rgba(0, 255, 224, 0.4);
+  overflow: hidden;
+}
+
+/* Numbers container */
+.countdown {
+  position: relative;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 10px #00ffe0, 0 0 20px #00ffe0, 0 0 40px #00ffe0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Hide all numbers by default */
+.countdown span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.5);
+  opacity: 0;
+  animation: show 1s ease forwards;
+}
+
+/* Each number gets its own delay */
+.countdown span:nth-child(1)  { animation-delay: 0s; }
+.countdown span:nth-child(2)  { animation-delay: 1s; }
+.countdown span:nth-child(3)  { animation-delay: 2s; }
+.countdown span:nth-child(4)  { animation-delay: 3s; }
+.countdown span:nth-child(5)  { animation-delay: 4s; }
+.countdown span:nth-child(6)  { animation-delay: 5s; }
+.countdown span:nth-child(7)  { animation-delay: 6s; }
+.countdown span:nth-child(8)  { animation-delay: 7s; }
+.countdown span:nth-child(9)  { animation-delay: 8s; }
+.countdown span:nth-child(10) { animation-delay: 9s; }
+.countdown span:nth-child(11) { animation-delay: 10s; }
+.countdown span:nth-child(11){
+    animation:showLast 1s ease forwards;
+    animation-delay: 10s;
+}
+/* Animation */
+@keyframes show {
+  0%   { opacity: 0; transform: translate(-50%, -50%) scale(0.5); }
+  20%  { opacity: 1; transform: translate(-50%, -50%) scale(1.2); }
+  50%  { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  80%  { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+  100% { opacity: 0; }
+}
+@keyframes showLast{
+     0%   { opacity: 0; transform: translate(-50%, -50%) scale(0.5); }
+     50%  { opacity: 1; transform: translate(-50%, -50%) scale(1.2); }
+     100%  { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+     
+}
