@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #faf9f9;
+}
+a{
+    text-decoration: none;
+    color:#3C3734
+}
+.prompt-cards{
+    width: max-content;
+    display:flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+.prompt-cards-top{
+    display:flex;
+    width: max-content;
+    gap:34px;
+    overflow: hidden;
+   animation: scrolltext-top 100s linear infinite;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+@keyframes scrolltext-top {
+    0%{transform: translateX(-50%);}
+    100%{transform: translateX(0);}
+}
+.prompt-cards-middle{
+    display:flex;
+    width: max-content;
+    gap:34px;
+    overflow: hidden;
+    animation: scrolltext-middle 100s linear infinite;
+
+}
+@keyframes scrolltext-middle {
+    0%{transform: translateX(0%);}
+    100%{transform: translateX(-50%);}
+}
+.prompt-cards-bottom{
+    display:flex;
+    width: max-content;
+    gap:34px;
+    overflow: hidden;
+    animation: scrolltext-bottom 100s linear infinite;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+@keyframes scrolltext-bottom {
+    0%{transform: translateX(-50%);}
+    100%{transform: translateX(0);}
+}
+
+
+.language{
+    display:flex;
+    width: 400px;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+    gap:34px;
+}
+.quiz{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
+.ideas{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+     background-color: #f5eeea;
+}
+.trip{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+     background-color: #f5eeea;
+}
+.image{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
+.new{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
+.advice{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
+.draft{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
+.perfect-day{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
+.dinner{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
+.training{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
+.coral{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
+.sleep{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
+.history{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
+.book{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
+.interview{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
+.linkedin{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
+.pickup-line{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
+.wedding{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
+.cooking{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
+.fitness{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
+.capsule{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
+.credit{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
+.questions{
+    display:flex;
+    width: 400px;;
+    height: 88px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    color:#3C3734;
+    border-radius: 30px;
+    background-color: #f5eeea;
+}
