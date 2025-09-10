@@ -3,12 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-html,body{
+body{
     width: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.2rem;
+    font-weight: 400;
     background-color: #faf9f9;
+}
+img{
+    display: flex;
+    position: left;
+    border-radius: 15px;
+    margin: 20px ;
+    margin-left: 0;
 }
 a{
     text-decoration: none;
@@ -29,6 +38,17 @@ a{
    margin-top: 20px;
    margin-bottom: 20px;
 }
+
+.prompt-cards-top:hover {
+    animation-play-state: paused;
+}
+.prompt-cards-middle:hover {
+    animation-play-state: paused;
+}
+.prompt-cards-bottom:hover {
+    animation-play-state: paused;
+}
+
 @keyframes scrolltext-top {
     0%{transform: translateX(-50%);}
     100%{transform: translateX(0);}
@@ -326,3 +346,4 @@ a{
     border-radius: 30px;
     background-color: #f5eeea;
 }
+
